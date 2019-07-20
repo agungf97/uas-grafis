@@ -254,12 +254,12 @@ void keyboard_s(int key,int x,int y)
 
     switch(key)
     {
-        case GLUT_KEY_UP:// menaikan kipas
-            rotation_y_plus++;
-        break;
-        case GLUT_KEY_DOWN:// menurunkan kipas
-            rotation_y_plus--;
-        break;
+        //case GLUT_KEY_UP:// menaikan kipas
+            //rotation_y_plus++;
+        //break;
+        //case GLUT_KEY_DOWN:// menurunkan kipas
+            //rotation_y_plus--;
+        //break;
         case GLUT_KEY_END:// stop kipas
             rotation_y_plus=0;
             speed1=false;
